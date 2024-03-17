@@ -114,12 +114,11 @@ def main():
                 response = result['answer']
                 st.markdown(response)
 
-                with st.expander("참고 문서 확인"):
-                    source_documents = result['source_documents']
-
-                    st.markdown(source_documents[0].metadata['source'], help = source_documents[0].page_content)
-                    st.markdown(source_documents[1].metadata['source'], help = source_documents[1].page_content)
-                    st.markdown(source_documents[2].metadata['source'], help = source_documents[2].page_content)
+                # with st.expander("참고 문서 확인"):
+                #     source_documents = result['source_documents']
+                #     st.markdown(source_documents[0].metadata['source'], help = source_documents[0].page_content)
+                #     st.markdown(source_documents[1].metadata['source'], help = source_documents[1].page_content)
+                #     st.markdown(source_documents[2].metadata['source'], help = source_documents[2].page_content)
 
 
         #* 어시스턴트 답변을 메시지 출력에 추가
