@@ -1,0 +1,6 @@
+pysqlite3-binary
+langchain
+langchain-openai
+chromadb
+sentence-transformers
+streamlit

@@ -1,0 +1,6 @@
+docker-compose.yml
+DockerFile
+
+.streamlit/secrets.toml
+.env
+.vscode
